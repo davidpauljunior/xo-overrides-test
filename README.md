@@ -5,9 +5,10 @@ XO is the only dependency
 `npm install`
 
 Default options are set to `"space": 2` and `"envs": ["node"]`.
-Overrides are set to `"space": 4` and `"envs": ["browser"]` for file `index.js`.
 
-Expecting to see no errors reported for the code inside `index.js`:
+Overrides are set to `"files": "index.js"`, `"space": 4` and `"envs": ["browser"]`.
+
+Expecting to see no errors reported for the following code inside `index.js`:
 
 ```
 if (document) {
