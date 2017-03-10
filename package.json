@@ -1,0 +1,35 @@
+{
+  "name": "xo-overrides-test",
+  "version": "1.0.0",
+  "description": "Tests overrides option in XO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidpauljunior/xo-overrides-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidpauljunior/xo-overrides-test/issues"
+  },
+  "homepage": "https://github.com/davidpauljunior/xo-overrides-test#readme",
+  "devDependencies": {
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "space": 2,
+    "envs": [
+      "node"
+    ],
+    "overrides": {
+      "files": "index.js",
+      "space": 4,
+      "envs": [
+        "browser"
+      ]
+    }
+  }
+}
